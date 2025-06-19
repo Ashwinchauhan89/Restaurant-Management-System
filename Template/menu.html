@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="" />
+  <meta name="description" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+  <title>Menu - Feane</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .menu-item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 30px;
+      transition: 0.3s;
+      background-color: #fff;
+    }
+    .menu-item:hover {
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .menu-item img {
+      border-radius: 8px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">Feane</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="home.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="book.html">Book Table</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Menu Header -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <h1 class="mb-3">Our Menu</h1>
+      <p class="lead">Explore our delicious offerings below!</p>
+    </div>
+  </section>
+
+  <!-- Menu Items -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- Pizza -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/pizza.jpg" alt="Pizza" class="img-fluid mb-3">
+            <h5>Margherita Pizza</h5>
+            <p>Classic tomato, mozzarella & basil</p>
+            <strong>$10</strong>
+          </div>
+        </div>
+
+        <!-- Burger -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/burger.jpg" alt="Burger" class="img-fluid mb-3">
+            <h5>Cheese Burger</h5>
+            <p>Grilled beef patty, cheese, and lettuce</p>
+            <strong>$8</strong>
+          </div>
+        </div>
+
+        <!-- Pasta -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/pasta.jpg" alt="Pasta" class="img-fluid mb-3">
+            <h5>Italian Pasta</h5>
+            <p>Penne pasta in creamy Alfredo sauce</p>
+            <strong>$12</strong>
+          </div>
+        </div>
+
+        <!-- Salad -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/salad.jpg" alt="Salad" class="img-fluid mb-3">
+            <h5>Caesar Salad</h5>
+            <p>Crisp romaine, croutons & Caesar dressing</p>
+            <strong>$7</strong>
+          </div>
+        </div>
+
+        <!-- Dessert -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/dessert.jpg" alt="Dessert" class="img-fluid mb-3">
+            <h5>Chocolate Cake</h5>
+            <p>Rich, moist and topped with ganache</p>
+            <strong>$6</strong>
+          </div>
+        </div>
+
+        <!-- Drink -->
+        <div class="col-md-4">
+          <div class="menu-item text-center">
+            <img src="images/drink.jpg" alt="Drink" class="img-fluid mb-3">
+            <h5>Fresh Lemonade</h5>
+            <p>Refreshing house-made lemonade</p>
+            <strong>$4</strong>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Feane. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
